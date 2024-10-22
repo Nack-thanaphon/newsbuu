@@ -34,6 +34,8 @@ class Controller
   public $xFunction;
   public $lang;
   public $nocsrf;
+  public $profile;
+  
 
   public function __construct($config, $db, $language, $setURI)
   {

@@ -826,6 +826,7 @@ $datetime_end = date('d/m/Y') . ' 16:30:00';
         },
         error: function(jqXHR, textStatus, errorThrown) {
           alert('Error!');
+          console.log(errorThrown);
           location.reload();
         }
       });
