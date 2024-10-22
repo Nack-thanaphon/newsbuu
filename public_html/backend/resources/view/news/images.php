@@ -21,9 +21,9 @@
 							  <li><a href="javascript:void(0)" id="select_items"><?=$this->lang->action->delete_selected?></a></li>
 							  <li><a href="<?=$this->baseurl->backend->module->news->images?>" id="reset_filter_table"><?=$this->lang->action->reset_filter?></a></li>
 						  </ul>
-					  </div>// 	<!-- /.btn-group left-->
+					  </div><!-- /.btn-group left-->
 					</h1>
-        </div>// 	<!-- /.page-header -->
+        </div><!-- /.page-header -->
        <!--AJAX Message-->
         <div id="dmessage"></div>
         <!--AJAX Message-->
@@ -70,10 +70,10 @@
 						?>
           </tbody>
         </table>
-      </div>// 	<!-- /.col-xs-12 -->
-		</div>// 	<!-- /.page-content -->
+      </div><!-- /.col-xs-12 -->
+		</div><!-- /.page-content -->
 	</div>
-</div>// 	<!-- /.main-content -->
+</div><!-- /.main-content -->
 <!--Upload Img FORM-->
 <div id="modal-upload" class="modal">
   <div class="modal-dialog">
@@ -160,7 +160,7 @@
 		});
 </script>
 <!--modal-open-images-->
-// 	<!-- page specific plugin scripts -->
+<!-- page specific plugin scripts -->
 <link rel="stylesheet"  href="<?=$this->plugins?>lity/dist/lity.css" />
 <script src="<?=$this->plugins?>lity/dist/lity.js" ></script>
 <script src="<?=$this->_assets?>js/jquery.dataTables.min.js"></script>
@@ -171,7 +171,7 @@
 <script src="<?=$this->_assets?>js/dataTables.select.min.js"></script>
 <script src="<?=$this->_assets?>js/bootbox.js"></script>
 <script src="<?=$this->plugins?>upload_multiple/js/jquery.form.js"></script>
-// 	<!-- dataTables plugin -->
+<!-- dataTables plugin -->
 <script type="text/javascript">
      /*Function load_gallery*/
      function load_form_images(id){

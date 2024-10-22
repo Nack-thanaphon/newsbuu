@@ -9,12 +9,12 @@
     <script src="<?=$this->_assets?>js/jquery-2.1.4.min.js" ></script>
 </head>
 <body>
-// 	<!-- /plugins -->
+<!-- /plugins -->
 <script src="<?=$this->plugins?>check/parsley_th.js" ></script>
 <link rel="stylesheet"  href="<?=$this->plugins?>check/parsley.css" />
 <script src="<?=$this->plugins?>content/autocomplete_off.js" ></script>
 
-// 	<!-- /plugins -->
+<!-- /plugins -->
 <div class="form">
   <div align="center"><h1><?=$this->lang->page->setPassword?></h1></div><br />
   <form name="frm" id="frm" method="post" class="login-form"  data-parsley-validate="">

@@ -12,7 +12,7 @@
 			<div class="col-xs-12">
 				<div class="page-header">
 					<h1>การใช้งานระบบ(Log)</h1>
-        </div>// 	<!-- /.page-header -->
+        </div><!-- /.page-header -->
        <!--AJAX Message-->
         <div id="dmessage"></div>
         <!--AJAX Message-->
@@ -44,19 +44,19 @@
 						?>
           </tbody>
         </table>
-      </div>// 	<!-- /.col-xs-12 -->
-		</div>// 	<!-- /.page-content -->
+      </div><!-- /.col-xs-12 -->
+		</div><!-- /.page-content -->
 	</div>
-</div>// 	<!-- /.main-content -->
+</div><!-- /.main-content -->
 
-// 	<!-- page specific plugin scripts -->
+<!-- page specific plugin scripts -->
 <script src="<?=$this->_assets?>js/jquery.dataTables.min.js"></script>
 <script src="<?=$this->_assets?>js/jquery.dataTables.bootstrap.min.js"></script>
 <script src="<?=$this->_assets?>js/dataTables.responsive.js"></script>
 <link rel="stylesheet"  href="<?=$this->_assets?>css/dataTables.responsive.css" />
 <script src="<?=$this->_assets?>js/dataTables.buttons.min.js"></script>
 <script src="<?=$this->_assets?>js/dataTables.select.min.js"></script>
-// 	<!-- dataTables plugin -->
+<!-- dataTables plugin -->
 <script type="text/javascript">
 		jQuery(function($) {
 				var myTable = $('#dynamic-table').DataTable( {bAutoWidth: false,responsive: true,'columnDefs': [{'targets': 0,'targets': 'no-sort','searchable':false,'orderable':false,}],

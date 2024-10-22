@@ -12,9 +12,9 @@
   <!DOCTYPE html>
   <html class="no-js" lang="zxx">
       <head>
-      // 	<!-- Title -->
+      <!-- Title -->
     	<title>ข่าวประชาสัมพันธ์</title>
-  		// 	<!-- Meta -->
+  		<!-- Meta -->
   		<meta charset="utf-8">
   		<meta http-equiv="X-UA-Compatible" content="IE=edge">
   		<meta name='copyright' content="">

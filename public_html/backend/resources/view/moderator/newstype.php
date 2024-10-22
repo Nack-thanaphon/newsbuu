@@ -21,9 +21,9 @@
 							  <li><a href="javascript:void(0)" id="select_items"><?=$this->lang->action->delete_selected?></a></li>
 							  <li><a href="<?=$this->baseurl->backend->module->moderator->newstype?>" id="reset_filter_table"><?=$this->lang->action->reset_filter?></a></li>
 						  </ul>
-					  </div>// 	<!-- /.btn-group left-->
+					  </div><!-- /.btn-group left-->
 					</h1>
-        </div>// 	<!-- /.page-header -->
+        </div><!-- /.page-header -->
        <!--AJAX Message-->
         <div id="dmessage"></div>
         <!--AJAX Message-->
@@ -57,16 +57,16 @@
 						?>
           </tbody>
         </table>
-      </div>// 	<!-- /.col-xs-12 -->
-		</div>// 	<!-- /.page-content -->
+      </div><!-- /.col-xs-12 -->
+		</div><!-- /.page-content -->
 	</div>
-</div>// 	<!-- /.main-content -->
-// 	<!-- /plugins -->
+</div><!-- /.main-content -->
+<!-- /plugins -->
 <script src="<?=$this->plugins?>check/parsley_th.js" ></script>
 <link rel="stylesheet"  href="<?=$this->plugins?>check/parsley.css" />
 <script src="<?=$this->plugins?>check/form.js" ></script>
 <script src="<?=$this->plugins?>content/autocomplete_off.js" ></script>
-// 	<!-- /plugins -->
+<!-- /plugins -->
 <!--modal-add-->
 <div id="modal-add" class="modal">
   <div class="modal-dialog">
@@ -131,7 +131,7 @@
 </div><!--modal-wizard-->
 <!--modal-edit-->
 
-// 	<!-- page specific plugin scripts -->
+<!-- page specific plugin scripts -->
 <script src="<?=$this->_assets?>js/jquery.dataTables.min.js"></script>
 <script src="<?=$this->_assets?>js/jquery.dataTables.bootstrap.min.js"></script>
 <script src="<?=$this->_assets?>js/dataTables.responsive.js"></script>
@@ -139,7 +139,7 @@
 <script src="<?=$this->_assets?>js/dataTables.buttons.min.js"></script>
 <script src="<?=$this->_assets?>js/dataTables.select.min.js"></script>
 <script src="<?=$this->_assets?>js/bootbox.js"></script>
-// 	<!-- dataTables plugin -->
+<!-- dataTables plugin -->
 <script type="text/javascript">
      function load_form_newstype(id){
        $("#load_html_newstype").html('<i class="ace-icon fa fa-spinner fa-spin red bigger-130"></i> <?=$this->lang->alert->loading->please_wait?>...');

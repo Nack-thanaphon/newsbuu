@@ -28,7 +28,7 @@
 						</li>
 					</ul>
 				</div>
-			</div>// 	<!-- /.navbar-container -->
+			</div><!-- /.navbar-container -->
 		</div>
 
-		<div class="main-container ace-save-state" id="main-container"> // 	<!-- /.navbar-container -->
+		<div class="main-container ace-save-state" id="main-container"> <!-- /.navbar-container -->

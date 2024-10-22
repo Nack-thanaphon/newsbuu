@@ -41,6 +41,6 @@
                 <li <?= $this->xFunction->checkSUBMENU($_GET['select'], 'news', isset($_GET['tab']) ? $_GET['tab'] : '', 'images', isset($_GET['click']) ? $_GET['click'] : '') ?>><a href="<?= $this->baseurl->backend->module->news->images ?>"><i class="menu-icon fa fa-caret-right"></i> <?= $this->lang->module->news->images ?></a><b class="arrow"></b></li>
             </ul>
         </li>
-    </ul>// 	<!-- /.nav-list -->
+    </ul><!-- /.nav-list -->
     <div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse"><i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i></div>
-</div>// 	<!-- /.sidebar-->
+</div><!-- /.sidebar-->

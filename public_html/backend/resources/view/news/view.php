@@ -19,12 +19,12 @@
           <li><a href="<?=$callback?>"><?=$this->lang->module->news->list?></a></li>
           <li class="active"><?=$this->lang->page->news_view?></li>
         </ul>
-    </div>// 	<!-- /.breadcrumbs -->
+    </div><!-- /.breadcrumbs -->
     <div class="page-content">
       <div class="col-xs-12">
         <div class="page-header">
          <h1><?=$this->lang->page->news_view?></h1>
-        </div>// 	<!-- /.page-header -->
+        </div><!-- /.page-header -->
         <div class="row">
           <div class="col-xs-12">
             <div class="row">
@@ -198,12 +198,12 @@
               <a href="<?=$this->baseurl->backend->module->news->manage.$getData['id'].$add_param?>" class="btn btn-info pull-right" ><i class="fa fa-pencil-square-o" aria-hidden="true"></i> <?=$this->lang->button->edit?></a>
               <div class="clearfix"></div>
             </div>
-          </div>// 	<!-- /.col-xs-12 -->
-        </div>// 	<!-- /.row -->
-      </div>// 	<!-- /.col-xs-12 -->
-    </div>// 	<!-- /.page-content -->
-  </div>// 	<!-- /.main-content-inner -->
-</div>// 	<!-- /.main-content -->
+          </div><!-- /.col-xs-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.col-xs-12 -->
+    </div><!-- /.page-content -->
+  </div><!-- /.main-content-inner -->
+</div><!-- /.main-content -->
 <link rel="stylesheet"  href="<?=$this->plugins?>lity/dist/lity.css" />
 <script src="<?=$this->plugins?>lity/dist/lity.js" ></script>
 <?php if(is_array($galleryList) && count($galleryList)>0){ ?>
@@ -211,7 +211,7 @@
 <link rel="stylesheet" href="<?=$this->plugins?>lightbox/css/blueimp-gallery.min.css">
 <script src="<?=$this->plugins?>lightbox/js/blueimp-gallery.min.js"></script>
 <script type="text/javascript">
-  // 	<!-- lightbox -->
+  <!-- lightbox -->
   document.getElementById('content_gallery').onclick = function (event) {
       event = event || window.event;
       var target = event.target || event.srcElement,
@@ -220,7 +220,7 @@
           links = this.getElementsByTagName('a');
       blueimp.Gallery(links, options);
   };
-  // 	<!-- lightbox -->
+  <!-- lightbox -->
 </script>
 <?php }?>
 <?php

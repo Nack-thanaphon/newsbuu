@@ -1,6 +1,6 @@
-		// 	<!-- Header -->
+		<!-- Header -->
 		<header class="header">
-			// 	<!-- Header Inner -->
+			<!-- Header Inner -->
 			<div class="header-inner">
 				<div class="container">
 					<div class="row">
@@ -11,7 +11,7 @@
 							<div class="mobile-menu"></div>
 						</div>
 						<div class="col-lg-9 col-md-9 col-12">
-							// 	<!-- Header Widget -->
+							<!-- Header Widget -->
 							<div class="header-widget">
 								<div class="single-widget">
 									<i class="fa fa-phone"></i>
@@ -32,14 +32,14 @@
 				</div>
 			</div>
 			<!--/ End Header Inner -->
-			// 	<!-- Header Menu -->
+			<!-- Header Menu -->
 			<div class="header-menu">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
 							<nav class="navbar navbar-default">
 								<div class="navbar-collapse">
-									// 	<!-- Main Menu -->
+									<!-- Main Menu -->
 									<ul id="nav" class="nav menu navbar-nav">
 										<li <?php if(empty($_GET['select'])){ echo'class="active" '; }?>><a href="<?=$this->baseurl->home?>"><?=$this->lang->front->home?></a></li>
 										<li <?php if(!empty($_GET['d']) && empty($_GET['c'])){ echo'class="active" '; }?>><a href="javascript:void(0)"><?=$this->lang->front->department?><i class="fa fa-angle-down"></i></a>
@@ -54,7 +54,7 @@
 										</li>
 										<li <?php if(!empty($_GET['select']) && $_GET['select']=='search'){ echo'class="active" '; }?>><a href="<?=$this->baseurl->front->module->search->list?>">ค้นหาข่าวย้อนหลัง</a></li>
 									</ul>
-									// 	<!-- End Main Menu -->
+									<!-- End Main Menu -->
 								</div>
 							</nav>
 						</div>
@@ -63,4 +63,4 @@
 			</div>
 			<!--/ End Header Menu -->
 		</header>
-		// 	<!-- End Header -->
+		<!-- End Header -->
