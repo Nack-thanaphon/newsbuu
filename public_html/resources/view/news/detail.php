@@ -1,4 +1,4 @@
-<!-- Start Breadcrumbs -->
+// 	<!-- Start Breadcrumbs -->
 <?php
 $breadcrumbs='';
 if($this->data['web_config']['breadcrumbs']){
@@ -21,7 +21,7 @@ if($this->data['web_config']['breadcrumbs']){
 	</div>
 </section>
 <!--/ End Breadcrumbs -->
-<!-- Events -->
+// 	<!-- Events -->
 <section class="events single section">
 	<div class="container">
 		<div class="row">
@@ -56,7 +56,7 @@ if($this->data['web_config']['breadcrumbs']){
 						 echo '<img src="'.$news_photo.'" width="740" alt="'.$this->xFunction->htmlspec($getNEWS['title']).'">';
 					 }
 					 ?>
-					<!-- Gallery   End Gallery -->
+					// 	<!-- Gallery   End Gallery -->
 					<div class="event-content">
 						<div class="meta">
 							<span><i class="fa fa-calendar"></i><?=$this->xFunction->thaidate($getNEWS['news_date'])?></span>
@@ -126,7 +126,7 @@ if($this->data['web_config']['breadcrumbs']){
 							  </div>
 						  </form>
 					</div>
-					<!-- Categories -->
+					// 	<!-- Categories -->
 					<div class="single-widget categories">
 							<h3 class="title"><?=$this->lang->front->newtype?></h3>
 							<ul>
@@ -142,7 +142,7 @@ if($this->data['web_config']['breadcrumbs']){
 					<!--/ End Categories -->
 					<div class="single-widget course">
 						<h3><?=$this->lang->front->newslist?> <span><?=$this->lang->front->title->lasted?></span></h3>
-						<!-- Single Course -->
+						// 	<!-- Single Course -->
 						<?php
 							if(is_array($newsLasted)){
 								foreach($newsLasted as $sbrNews){
@@ -159,7 +159,7 @@ if($this->data['web_config']['breadcrumbs']){
 								}
 							}
 						?>
-						<!-- Single Course -->
+						// 	<!-- Single Course -->
 					</div>
 				</div>
 			</div>
@@ -167,9 +167,9 @@ if($this->data['web_config']['breadcrumbs']){
 	</div>
 </section>
 <!--/ End Events -->
-<!-- Include Date Range Picker -->
+// 	<!-- Include Date Range Picker -->
 <div id="fb-root"></div>
-<!-- Your share button code -->
+// 	<!-- Your share button code -->
 
 <script src="<?=$this->plugins?>content/autocomplete_off.js" ></script>
 <script type="text/javascript" src="<?=$this->assets?>vendor/datepicker/moment.min.js"></script>

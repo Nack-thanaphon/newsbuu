@@ -12,7 +12,7 @@
 			<div class="col-xs-12">
 				<div class="page-header">
 					<h1><?=$this->lang->module->account->list?></h1>
-        </div><!-- /.page-header -->
+        </div>// 	<!-- /.page-header -->
        <!--AJAX Message-->
         <div id="dmessage"></div>
         <!--AJAX Message-->
@@ -48,10 +48,10 @@
 					?>
           </tbody>
         </table>
-      </div><!-- /.col-xs-12 -->
-		</div><!-- /.page-content -->
+      </div>// 	<!-- /.col-xs-12 -->
+		</div>// 	<!-- /.page-content -->
 	</div>
-</div><!-- /.main-content -->
+</div>// 	<!-- /.main-content -->
 <script src="<?=$this->plugins?>clipboard/clipboard.min.js" ></script>
 <script type="text/javascript">
 		var clipboard = new Clipboard('.copy');
@@ -102,7 +102,7 @@
 </div><!--modal-wizard-->
 <!--Reset Password Form-->
 
-<!-- page specific plugin scripts -->
+// 	<!-- page specific plugin scripts -->
 <script src="<?=$this->_assets?>js/jquery.dataTables.min.js"></script>
 <script src="<?=$this->_assets?>js/jquery.dataTables.bootstrap.min.js"></script>
 <script src="<?=$this->_assets?>js/dataTables.responsive.js"></script>
@@ -110,7 +110,7 @@
 <script src="<?=$this->_assets?>js/dataTables.buttons.min.js"></script>
 <script src="<?=$this->_assets?>js/dataTables.select.min.js"></script>
 <script src="<?=$this->_assets?>js/bootbox.js"></script>
-<!-- dataTables plugin -->
+// 	<!-- dataTables plugin -->
 <script type="text/javascript">
 		jQuery(function($) {
 				var myTable = $('#dynamic-table').DataTable( {bAutoWidth: false,responsive: true,'columnDefs': [{'targets': 0,'targets': 'no-sort','searchable':false,'orderable':false,}],

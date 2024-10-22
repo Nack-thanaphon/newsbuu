@@ -13,7 +13,7 @@ jQuery(document).ready(function(){
      });
 });
 </script>
-<!-- Slider Area -->
+// 	<!-- Slider Area -->
 		<section class="home-slider d-none d-md-block">
 			<div id="preloader" class="textcenter"><i class="fa fa-spinner fa-spin"></i></div>
 			<div class="slider-active" style="display:none;">
@@ -27,7 +27,7 @@ jQuery(document).ready(function(){
  						  $slider_src ='';
  						 }
 				     $slider_html='';
-				     $slider_html.='<!-- Single Slider -->';
+				     $slider_html.='// 	<!-- Single Slider -->';
 				     $slider_html.='<div class="single-slider overlay" '.$slider_src.' data-stellar-background-ratio="0.5">';
 				     $slider_html.='<div class="container">';
 				     $slider_html.='<div class="row">';
@@ -55,7 +55,7 @@ jQuery(document).ready(function(){
 						 $mbslider_src ='';
 						}
 	          $mbslider_html='';
-						$mbslider_html.='<!-- Single Slider -->';
+						$mbslider_html.='// 	<!-- Single Slider -->';
 						$mbslider_html.='<div class="single-slider overlay" '.$mbslider_src.' data-stellar-background-ratio="0.5">';
 						$mbslider_html.='<div class="container">';
 						$mbslider_html.='<div class="row">';
@@ -72,7 +72,7 @@ jQuery(document).ready(function(){
 		</section>
 		<!--/ End Slider Area -->
 
-		<!-- Events -->
+		// 	<!-- Events -->
 		<section class="events archives section">
 			<div class="container">
 				<div class="row">
@@ -120,7 +120,7 @@ jQuery(document).ready(function(){
 		</section>
 		<!--/ End Events -->
    <?php if(is_array($featuredList)){?>
-		<!-- Events -->
+		// 	<!-- Events -->
 		<section class="events archives section">
 			<div class="container">
 				<div class="row">
@@ -166,7 +166,7 @@ jQuery(document).ready(function(){
 		</section>
 		<!--/ End Events -->
 	  <?php }?>
-		<!-- Events -->
+		// 	<!-- Events -->
 		<section class="events section">
 			<div class="container">
 				<div class="row">
@@ -216,7 +216,7 @@ jQuery(document).ready(function(){
 		</section>
 		<!--/ End Events -->
 
-		<!-- Blogs -->
+		// 	<!-- Blogs -->
 		<section class="blog section">
 			<div class="container">
 				<div class="row">

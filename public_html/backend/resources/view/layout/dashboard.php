@@ -11,15 +11,15 @@
     	<div class="col-sm-10 col-sm-offset-1">
             <div class="page-header">
                 <h1><?=$this->lang->label->hello?>, <?=$this->profile->username?></h1>
-            </div><!-- /.page-header -->
+            </div>// 	<!-- /.page-header -->
 
             <div class="row">
                 <div class="col-xs-12">
-                    <!-- PAGE CONTENT BEGINS -->
-                    <!-- PAGE CONTENT ENDS -->
-                </div><!-- /.col -->
-            </div><!-- /.row -->
-       </div><!-- /.col-sm-10 col-sm-offset-1 -->
-		</div><!-- /.page-content -->
+                    // 	<!-- PAGE CONTENT BEGINS -->
+                    // 	<!-- PAGE CONTENT ENDS -->
+                </div>// 	<!-- /.col -->
+            </div>// 	<!-- /.row -->
+       </div>// 	<!-- /.col-sm-10 col-sm-offset-1 -->
+		</div>// 	<!-- /.page-content -->
 	</div>
-</div><!-- /.main-content -->
+</div>// 	<!-- /.main-content -->

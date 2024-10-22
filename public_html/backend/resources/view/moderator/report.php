@@ -12,7 +12,7 @@
 			<div class="col-xs-12">
 				<div class="page-header">
 					<h1>รายงานข่าว</h1>
-        </div><!-- /.page-header -->
+        </div>// 	<!-- /.page-header -->
 				<form id="frm_search" name="frm_search" class="form-horizontal" role="form" method="post" action="">
           <div class="row">
 						<div class="col-md-4">
@@ -90,17 +90,17 @@
 				<?php
 					}
 				?>
-      </div><!-- /.col-xs-12 -->
-		</div><!-- /.page-content -->
+      </div>// 	<!-- /.col-xs-12 -->
+		</div>// 	<!-- /.page-content -->
 	</div>
-</div><!-- /.main-content -->
+</div>// 	<!-- /.main-content -->
 
-<!-- page specific plugin scripts -->
+// 	<!-- page specific plugin scripts -->
 <script src="<?=$this->plugins?>content/autocomplete_off.js" ></script>
 <script type="text/javascript" src="<?=$this->assets?>vendor/datepicker/moment.min.js"></script>
 <script type="text/javascript" src="<?=$this->assets?>vendor/datepicker/daterangepicker.min.js"></script>
 <link rel="stylesheet" type="text/css" href="<?=$this->assets?>vendor/datepicker/daterangepicker.css" />
-<!-- dataTables plugin -->
+// 	<!-- dataTables plugin -->
 <script type="text/javascript">
 		$(function() {
 			$('input[name="sdate"]').daterangepicker({

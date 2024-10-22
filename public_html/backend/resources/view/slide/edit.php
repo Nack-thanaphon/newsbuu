@@ -7,18 +7,18 @@
           <li><a href="<?=$this->baseurl->backend->module->slide->list?>"><?=$this->lang->module->slide->list?></a></li>
           <li class="active"><?=$this->lang->page->slide_edit?></li>
         </ul>
-    </div><!-- /.breadcrumbs -->
-    <!-- /plugins -->
+    </div>// 	<!-- /.breadcrumbs -->
+    // 	<!-- /plugins -->
     <script src="<?=$this->plugins?>check/parsley_th.js" ></script>
     <link rel="stylesheet"  href="<?=$this->plugins?>check/parsley.css" />
     <script src="<?=$this->plugins?>check/form.js" ></script>
     <script src="<?=$this->plugins?>content/autocomplete_off.js" ></script>
-    <!-- /plugins -->
+    // 	<!-- /plugins -->
     <div class="page-content">
       <div class="col-sm-10 col-sm-offset-1">
         <div class="page-header">
          <h1><?=$this->lang->page->slide_edit?></h1>
-        </div><!-- /.page-header -->
+        </div>// 	<!-- /.page-header -->
         <div class="row">
           <div class="col-xs-12">
           	<form id="frm" name="frm" class="form-horizontal" role="form" method="post" action=""  data-parsley-validate=""  enctype="multipart/form-data">
@@ -127,12 +127,12 @@
                 <div class="clearfix"></div>
               </div>
             </form><!--form-->
-          </div><!-- /.col-xs-12 -->
-        </div><!-- /.row -->
-      </div><!-- /.col-sm-10 col-sm-offset-1 -->
-    </div><!-- /.page-content -->
-  </div><!-- /.main-content-inner -->
-</div><!-- /.main-content -->
+          </div>// 	<!-- /.col-xs-12 -->
+        </div>// 	<!-- /.row -->
+      </div>// 	<!-- /.col-sm-10 col-sm-offset-1 -->
+    </div>// 	<!-- /.page-content -->
+  </div>// 	<!-- /.main-content-inner -->
+</div>// 	<!-- /.main-content -->
 <link rel="stylesheet"  href="<?=$this->plugins?>lity/dist/lity.css" />
 <script src="<?=$this->plugins?>lity/dist/lity.js" ></script>
 <script src="<?=$this->plugins?>ckeditor/ckeditor.js" ></script>
@@ -141,21 +141,21 @@
 <script type="text/javascript" src="<?=$this->plugins?>switcher/js/jquery.switcher.js"></script>
 <script type="text/javascript">
   $.switcher();
-  <!-- media Ex-->
+  // 	<!-- media Ex-->
 	$(function () {
 		$("#images1").change(function () {if (this.files && this.files[0]) {var reader = new FileReader();reader.onload = imageIsLoaded;reader.readAsDataURL(this.files[0]);}});
     $("#images2").change(function () {if (this.files && this.files[0]) {var reader = new FileReader();reader.onload = imageIsLoaded2;reader.readAsDataURL(this.files[0]);}});
 	});
 	function imageIsLoaded(e) {	$('#myImg').html(' <img src="'+e.target.result+'"  width="200"  class="bordor" />');};
   function imageIsLoaded2(e) {$('#myImg2').html(' <img src="'+e.target.result+'"  width="200"  class="bordor" />');};
-  <!-- media Ex-->
+  // 	<!-- media Ex-->
 
-	<!-- Editor-->
+	// 	<!-- Editor-->
 	CKEDITOR.replace( 'description' );
 	CKEDITOR.config.enterMode = CKEDITOR.ENTER_BR;
 	CKEDITOR.config.allowedContent = true;
 	CKEDITOR.config.autoParagraph = false;
-  <!-- Editor -->
+  // 	<!-- Editor -->
 
   $(function () {
 	  $('#frm').parsley().on('field:validated', function() {

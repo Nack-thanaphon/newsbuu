@@ -21,9 +21,9 @@
                 <li><a href="javascript:void(0)" id="select_items" ><?=$this->lang->action->delete_selected?></a></li>
                 <li><a href="<?=$this->baseurl->backend->module->slide->list?>" id="reset_filter_table"><?=$this->lang->action->reset_filter?></a></li>
               </ul>
-            </div><!-- /.btn-group left-->
+            </div>// 	<!-- /.btn-group left-->
 					</h1>
-        </div><!-- /.page-header -->
+        </div>// 	<!-- /.page-header -->
        <!--AJAX Message-->
         <div id="dmessage"></div>
         <!--AJAX Message-->
@@ -81,10 +81,10 @@
 						?>
           </tbody>
         </table>
-      </div><!-- /.col-xs-12 -->
-		</div><!-- /.page-content -->
+      </div>// 	<!-- /.col-xs-12 -->
+		</div>// 	<!-- /.page-content -->
 	</div>
-</div><!-- /.main-content -->
+</div>// 	<!-- /.main-content -->
 
 <script src="<?=$this->plugins?>check/parsley_th.js" ></script>
 <link rel="stylesheet"  href="<?=$this->plugins?>check/parsley.css" />
@@ -127,7 +127,7 @@
 </div><!--modal-wizard-->
 <!--Edit Rank Form-->
 
-<!-- Jquery Code -->
+// 	<!-- Jquery Code -->
 <script type="text/javascript">
 	$(document).on("click", ".open-model-edit-rank", function () {
 		 var id = $(this).data('id');
@@ -177,9 +177,9 @@
     });
   });
 </script>
-<!-- Jquery Code -->
+// 	<!-- Jquery Code -->
 
-<!-- page specific plugin scripts -->
+// 	<!-- page specific plugin scripts -->
 <link rel="stylesheet"  href="<?=$this->plugins?>lity/dist/lity.css" />
 <script src="<?=$this->plugins?>lity/dist/lity.js" ></script>
 <script src="<?=$this->_assets?>js/jquery.dataTables.min.js"></script>
@@ -189,7 +189,7 @@
 <script src="<?=$this->_assets?>js/dataTables.buttons.min.js"></script>
 <script src="<?=$this->_assets?>js/dataTables.select.min.js"></script>
 <script src="<?=$this->_assets?>js/bootbox.js"></script>
-<!-- dataTables plugin -->
+// 	<!-- dataTables plugin -->
 <script type="text/javascript">
 		jQuery(function($) {
 				var myTable = $('#dynamic-table').DataTable( {bAutoWidth: false,responsive: true,'columnDefs': [{'targets': 0,'targets': 'no-sort','searchable':false,'orderable':false,}],

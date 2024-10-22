@@ -1,4 +1,4 @@
-<!-- Start Breadcrumbs -->
+// 	<!-- Start Breadcrumbs -->
 <?php
 $breadcrumbs='';
 if($this->data['web_config']['breadcrumbs']){
@@ -22,7 +22,7 @@ if($this->data['web_config']['breadcrumbs']){
 		</section>
 		<!--/ End Breadcrumbs -->
 
-		<!-- Events -->
+		// 	<!-- Events -->
 		<section class="events archives section">
 			<div class="container">
 				<div class="row justify-content-md-center">
@@ -108,8 +108,8 @@ if($this->data['web_config']['breadcrumbs']){
 			</div>
 		</section>
 		<!--/ End Events -->
-		<!-- Include jQuery -->
-<!-- Include Date Range Picker -->
+		// 	<!-- Include jQuery -->
+// 	<!-- Include Date Range Picker -->
 <script src="<?=$this->plugins?>content/autocomplete_off.js" ></script>
 <script type="text/javascript" src="<?=$this->assets?>vendor/datepicker/moment.min.js"></script>
 <script type="text/javascript" src="<?=$this->assets?>vendor/datepicker/daterangepicker.min.js"></script>
