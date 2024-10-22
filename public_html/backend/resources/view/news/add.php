@@ -11,18 +11,18 @@ $datetime_end = date('d/m/Y') . ' 16:30:00';
         <li><a href="<?= $this->baseurl->backend->module->news->list; ?>"><?= $this->lang->module->news->list ?></a></li>
         <li class="active"><?= $this->lang->page->news_add ?></li>
       </ul>
-    </div>// <!-- /.breadcrumbs -->
-    // <!-- /plugins -->
+    </div><!-- /.breadcrumbs -->
+    <!-- /plugins -->
     <script src="<?= $this->plugins ?>check/parsley_th.js"></script>
     <link rel="stylesheet" href="<?= $this->plugins ?>check/parsley.css" />
     <script src="<?= $this->plugins ?>check/form.js"></script>
     <script src="<?= $this->plugins ?>content/autocomplete_off.js"></script>
-    // <!-- /plugins -->
+    <!-- /plugins -->
     <div class="page-content">
       <div class="col-xs-12">
         <div class="page-header">
           <h1><?= $this->lang->page->news_add ?></h1>
-        </div>// <!-- /.page-header -->
+        </div><!-- /.page-header -->
         <div class="row">
           <div class="col-md-6">
             <form id="frm" name="frm" class="form-horizontal" role="form" method="post" action="" data-parsley-validate="" enctype="multipart/form-data">
@@ -182,7 +182,7 @@ $datetime_end = date('d/m/Y') . ' 16:30:00';
                 <div class="clearfix"></div>
               </div>
             </form><!--form-->
-          </div>// <!-- /.col-md-6 -->
+          </div><!-- /.col-md-6 -->
           <div class="col-md-6 news_image_all">
             <h2><?= $this->lang->page->news_images ?></h2>
             <form method="post" name="multiple_news_images" id="multiple_news_images" enctype="multipart/form-data" action="<?= $this->baseurl->backend->process ?>">
@@ -209,13 +209,13 @@ $datetime_end = date('d/m/Y') . ' 16:30:00';
               <input type="hidden" name="refresh" value="0" />
             </form>
             <ul class="ace-thumbnails clearfix" id="loading_news_images"></ul>
-          </div>// <!-- /.col-md-6 -->
+          </div><!-- /.col-md-6 -->
           <div class="clearfix"></div>
-        </div>// <!-- /.row -->
-      </div>// <!-- /.col-sm-10 col-sm-offset-1 -->
-    </div>// <!-- /.page-content -->
-  </div>// <!-- /.main-content-inner -->
-</div>// <!-- /.main-content -->
+        </div><!-- /.row -->
+      </div><!-- /.col-sm-10 col-sm-offset-1 -->
+    </div><!-- /.page-content -->
+  </div><!-- /.main-content-inner -->
+</div><!-- /.main-content -->
 
 <!--Edit thumbnail Form-->
 <div id="modal-thumbnail-crop" class="modal">
@@ -502,7 +502,7 @@ $datetime_end = date('d/m/Y') . ' 16:30:00';
   <link rel="stylesheet" href="<?= $this->plugins ?>lightbox/css/blueimp-gallery.min.css">
   <script src="<?= $this->plugins ?>lightbox/js/blueimp-gallery.min.js"></script>
   <script type="text/javascript">
-    // // 	<!-- lightbox -->
+    // <!-- lightbox -->
     document.getElementById('content_gallery').onclick = function(event) {
       event = event || window.event;
       var target = event.target || event.srcElement,
@@ -514,7 +514,7 @@ $datetime_end = date('d/m/Y') . ' 16:30:00';
         links = this.getElementsByTagName('a');
       blueimp.Gallery(links, options);
     };
-    // // 	<!-- lightbox -->
+    //<!-- lightbox -->
   </script>
 <?php } ?>
 <script type="text/javascript">
@@ -943,12 +943,10 @@ $datetime_end = date('d/m/Y') . ' 16:30:00';
     }); //#select_files_items
   });
   $.switcher();
-  // 	<!-- Editor -->
   CKEDITOR.replace('news_description');
   CKEDITOR.config.enterMode = CKEDITOR.ENTER_BR;
   CKEDITOR.config.allowedContent = true;
   CKEDITOR.config.autoParagraph = false;
-  // 	<!-- Editor -->
   $('.select2').css('width', '100%').select2({
     allowClear: true
   });
