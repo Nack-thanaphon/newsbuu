@@ -415,8 +415,15 @@ $datetime_end = date('d/m/Y') . ' 16:30:00';
           <!--AJAX Message-->
           <div id="zmessage"></div>
           <!--AJAX Message-->
-          <input id="files_news_id" name="files_news_id" type="hidden" value="<?= $getData['id'] ?>" />
-          <button class="btn btn-success btn-sm btn-next" data-last="Finish" id="zloading">
+          <?php
+          // Ensure $getData is an array before accessing its elements
+          if (is_array($getData) && isset($getData['id'])) {
+            $files_news_id = $getData['id'];
+          } else {
+            $files_news_id = ''; // or handle the error as needed
+          }
+          ?>
+          <input id="files_news_id" name="files_news_id" type="hidden" value="<?= htmlspecialchars($files_news_id, ENT_QUOTES, 'UTF-8') ?>" /> <button class="btn btn-success btn-sm btn-next" data-last="Finish" id="zloading">
             <i class="ace-icon fa fa-floppy-o" aria-hidden="true"></i> <?= $this->lang->button->save ?>
           </button>
           <button class="btn btn-sm pull-left" data-dismiss="modal" id="zclose-modal">
