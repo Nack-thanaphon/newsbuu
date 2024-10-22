@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{font-family:'fontello';src:url('fontello.eot?88184450');src:url('fontello.eot?88184450#iefix') format('embedded-opentype'),url('fontello.woff?88184450') format('woff'),url('fontello.ttf?88184450') format('truetype'),url('fontello.svg?88184450#fontello') format('svg');font-weight:normal;font-style:normal}
+[class^="icons-"]:before,[class*=" icons-"]:before{font-family:"fontello";font-style:normal;font-weight:normal;speak:none;display:inline-block;text-decoration:inherit;text-align:center;font-variant:normal;text-transform:none;}
+.icons-electronics:before{content:'\e800'}
+.icons-star:before{content:'\e801'}
+.icons-star-empty:before{content:'\e802'}
+.icons-circle:before{content:'\e803'}
+.icons-menu:before{content:'\e804'}
+.icons-goods:before{content:'\e805'}
+.icons-food:before{content:'\e806'}
+.icons-heart:before{content:'\e807'}
+.icons-youtube:before{content:'\e808'}
+.icons-facebook:before{content:'\e809'}
+.icons-twitter:before{content:'\e80a'}
+.icons-gplus:before{content:'\e80b'}
+.icons-right:before{content:'\e80c'}
+.icons-cancel-outline:before{content:'\e80d'}
+.icons-cancel:before{content:'\e80e'}
+.icons-circle-empty:before{content:'\e80f'}
+.icons-flag-active:before{content:'\e810'}
+.icons-left:before{content:'\e811'}
+.icons-up:before{content:'\e812'}
+.icons-down:before{content:'\e813'}
+.icons-mobile:before{content:'\e814'}
+.icons-books:before{content:'\e815'}
+.icons-camera:before{content:'\e816'}
+.icons-search:before{content:'\e817'}
+.icons-arrow-up:before{content:'\e818'}
+.icons-arrow-down:before{content:'\e819'}
+.icons-arrow-left:before{content:'\e81a'}
+.icons-arrow-right:before{content:'\e81b'}
+.icons-check:before{content:'\e81c'}
+.icons-checked:before{content:'\e81d'}
+.icons-link:before{content:'\e81e'}
+.icons-yes:before{content:'\e81f'}
+.icons-no:before{content:'\e820'}
+.icons-review:before{content:'\e821'}
+.icons-ask:before{content:'\e822'}
+.icons-spec:before{content:'\e823'}
+.icons-compare:before{content:'\e824'}
+.icons-apple:before{content:'\e825'}
+.icons-cosmetics:before{content:'\e826'}
+.icons-info:before{content:'\e827'}
+.icons-fashion:before{content:'\e828'}
+.icons-electrics:before{content:'\e829'}
+.icons-promotions:before{content:'\e82a'}
+.icons-promo:before{content:'\e82b'}
+.icons-catalog:before{content:'\e82c'}
+.icons-x:before{content:'\e82d'}
+.icons-cash:before{content:'\e82e'}
+.icons-atm:before{content:'\e82f'}
+.icons-counter:before{content:'\e830'}
+.icons-credit:before{content:'\e831'}
+.icons-mom:before{content:'\e832'}
+.icons-own:before{content:'\e833'}
+.icons-public:before{content:'\e834'}
+.icons-private:before{content:'\e835'}
+.icons-flag:before{content:'\e836'}
+.icons-yes-active:before{content:'\e837'}
+.icons-no-active:before{content:'\e838'}
+.icons-reply:before{content:'\e839'}
+.icons-store:before{content:'\e83a'}
+.icons-bell:before{content:'\e83b'}
+.icons-eye:before{content:'\e83c'}
+.icons-heart-1:before{content:'\e83d'}
+.icons-catalog-empty:before{content:'\e83e'}
+.icons-lock:before{content:'\e83f'}
+.icons-register:before{content:'\e840'}
+.icons-search-sorting:before {    content: '\e86c';}
+.icons-search-filter:before {    content: '\e86b';}
+

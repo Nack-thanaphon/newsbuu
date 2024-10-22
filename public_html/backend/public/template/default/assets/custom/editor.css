@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:30px; background:#FFF !important; font-family:Tahoma, Geneva, sans-serif; font-size:12px; }
+h1{font-size:2em;}
+.center{ text-align:center !important;}
+.left{ text-align:left !important;}
+.right{ text-align:right !important;}
+.text_break{    word-break: break-all;}
+.clearLine{ clear:both; margin-bottom:5px;}
+.inline_select{ display:inline-block; width:auto;}
+.select2-dropdown{ left:30px !important;}
