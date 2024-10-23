@@ -1862,7 +1862,7 @@ class Controller
               }
               if ($_FILES['files']['error'][$key] != true && empty($error)) {
                 $files_title = $this->xFunction->getNANE($_FILES['files']['name'][$key]);
-                $insert_id = $this->model->insertData(array("table" => "reserve_news_files", "field" => array("news_files_title" => $files_title, "news_files_path" => '', "user_id" => $user_id)));
+                $insert_id = $this->model->insertData(array("table" => "reserve_news_files", "field" => array("news_files_title" => $files_title,  "user_id" => $user_id)));
                 if (!empty($insert_id)) {
                   $runtime = date("YmdHis");
                   $files_name = 'reserve_' . $insert_id . 'T' . $runtime . '.' . $file_ext;
@@ -2315,7 +2315,7 @@ class Controller
               }
               if ($_FILES['files']['error'][$key] != true && empty($error)) {
                 $files_title = $this->xFunction->getNANE($_FILES['files']['name'][$key]);
-                $insert_id = $this->model->insertData(array("table" => "news_files_tbl", "field" => array("news_files_title" => $files_title, "news_files_path" => '', "news_id" => $var_id)));
+                $insert_id = $this->model->insertData(array("table" => "news_files_tbl", "field" => array("news_files_title" => $files_title,  "news_id" => $var_id)));
                 if (!empty($insert_id)) {
                   $runtime = date("YmdHis");
                   $files_name = 'files_' . $var_id . $insert_id . 'T' . $runtime . '.' . $file_ext;
