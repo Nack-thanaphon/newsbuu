@@ -35,7 +35,7 @@ class Controller
   public $lang;
   public $nocsrf;
   public $profile;
-  
+
 
   public function __construct($config, $db, $language, $setURI)
   {
@@ -1787,22 +1787,30 @@ class Controller
         $user_id = $this->checkUID('id');
         $items_title = array();
         parse_str($_POST['items_title'], $items_title);
+
         if (is_array($items_title)) {
           $no = 1;
-          if (count($items_title['gallery_title']) > 0) {
+
+          // Check if 'gallery_title' exists in $items_title and is an array
+          if (isset($items_title['gallery_title']) && is_array($items_title['gallery_title']) && count($items_title['gallery_title']) > 0) {
             foreach ($items_title['gallery_title'] as $keys => $values) {
-              $this->model->updateData(array("table" => "reserve_gallery", "field" => array("gallery_title" => $values), "where" => " gallery_id='" . $keys . "' AND user_id='" . $user_id . "' "));
+              $this->model->updateData(array(
+                "table" => "reserve_gallery",
+                "field" => array("gallery_title" => $values),
+                "where" => "gallery_id='" . $keys . "' AND user_id='" . $user_id . "'"
+              ));
+
               if ($no == count($items_title['gallery_title'])) {
                 $addthis = '';
-                $addthis .= ' load_reserve_gallery(); ';
-                $addthis .= ' load_reserve_manage_gallery(); ';
+                $addthis .= 'load_reserve_gallery(); ';
+                $addthis .= 'load_reserve_manage_gallery(); ';
                 $this->xFunction->sAlert($this->lang->alert->save->success, $addthis);
               }
               $no++;
-            } //foreach
+            } // foreach
           }
-        } //is_array
-      } //action = update-reserve-gallery-title
+        } // is_array
+      } // action = update-reserve-gallery-title
       if ($_POST['action'] == 'select-reserve-gallery-del') {
         $user_id = $this->checkUID('id');
         $var_items = $_POST['items_list'];
@@ -1831,6 +1839,7 @@ class Controller
           }
         } //is_array
       } //action = select-reserve-gallery-del
+
       if ($_POST['action'] == 'upload-reserve-attachment') {
         $user_id = $this->checkUID('id');
         if ($_POST['files_form_submit'] == 1) {
